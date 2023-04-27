@@ -1,0 +1,46 @@
+= vale-style-JTI
+
+A Vale style for Journal Technologies, Inc. (JTI) documentation.
+
+NOTE: This project is neither maintained or endorsed by
+      https://github.com/errata-ai/[errata-ai^].
+
+
+== Usage
+
+There are two ways to use this style:
+
+1. Download the https://github.com/jtiee/vale-style-JTI/releases[latest
+release^], copy the `JTI` folder to your Vale `StylesPath`, and include
+it in your `.vale.ini` configuration file:
++
+[source, ini]
+----
+# This goes in a file named either `.vale.ini` or `_vale.ini`.
+StylesPath = path/to/some/directory
+MinAlertLevel = warning # suggestion, warning or error
+
+# Only Asciidoc and .txt files; change to whatever you're using.
+[*.{adoc,txt}]
+# List of styles to load.
+BasedOnStyles = JTI
+----
+
+2. Add the repo URL to your Vale `Packages` in your `.vale.ini`
+configuration file:
+
+
+[source, ini]
+----
+# This goes in a file named either `.vale.ini` or `_vale.ini`.
+StylesPath = path/to/some/directory
+MinAlertLevel = warning # suggestion, warning or error
+
+Packages = Google, \
+https://github.com/jtiee/vale-style-JTI/releases/download/latest/vale-style-JTI.zip
+
+# Only Asciidoc and .txt files; change to whatever you're using.
+[*.{adoc,txt}]
+# List of styles to load.
+BasedOnStyles = JTI
+----
