@@ -28,8 +28,7 @@ BasedOnStyles = JTI
 
 2. Add the repo URL to your Vale `Packages` in your `.vale.ini`
 configuration file:
-
-
++
 [source, ini]
 ----
 # This goes in a file named either `.vale.ini` or `_vale.ini`.
