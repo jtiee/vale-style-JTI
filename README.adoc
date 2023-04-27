@@ -9,8 +9,7 @@ NOTE: This project is neither maintained or endorsed by https://github.com/errat
 
 There are two ways to use this style:
 
-1. Download the https://github.com/jtiee/vale-style-JTI/releases/tag/latest[latest
-release^], copy the `JTI` folder to your Vale `StylesPath`, and include it in your `.vale.ini` configuration file:
+1. Download the https://github.com/jtiee/vale-style-JTI/releases/tag/latest[latest release^], copy the `JTI` folder to your Vale `StylesPath`, and include it in your `.vale.ini` configuration file:
 +
 [source, ini]
 ----
@@ -33,7 +32,7 @@ StylesPath = path/to/some/directory
 MinAlertLevel = warning # suggestion, warning or error
 
 Packages = Google, \
-https://github.com/jtiee/vale-style-JTI/releases/download/latest/vale-style-JTI.zip
+https://github.com/jtiee/vale-style-JTI/releases/download/latest/JTI.zip
 
 # Only Asciidoc and .txt files; change to whatever you're using.
 [*.{adoc,txt}]

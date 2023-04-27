@@ -16,11 +16,11 @@ jobs:
         echo "REPO_NAME=${GITHUB_REPOSITORY}" >> $GITHUB_ENV
         echo "REPO_URL=${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" >> $GITHUB_ENV
     - name: Make ZIP
-      run: zip -r vale-style-JTI JTI
+      run: zip -r JTI JTI
     - name: Create release
       uses: ncipollo/release-action@v1.12.0
       with:
-        artifacts: "vale-style-JTI.zip"
+        artifacts: "JTI.zip"
         allowUpdates: true
         generateReleaseNotes: true
         tag: latest
