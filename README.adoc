@@ -2,17 +2,15 @@
 
 A Vale style for Journal Technologies, Inc. (JTI) documentation.
 
-NOTE: This project is neither maintained or endorsed by
-      https://github.com/errata-ai/[errata-ai^].
+NOTE: This project is neither maintained or endorsed by https://github.com/errata-ai/[errata-ai^].
 
 
 == Usage
 
 There are two ways to use this style:
 
-1. Download the https://github.com/jtiee/vale-style-JTI/releases[latest
-release^], copy the `JTI` folder to your Vale `StylesPath`, and include
-it in your `.vale.ini` configuration file:
+1. Download the https://github.com/jtiee/vale-style-JTI/releases/tag/latest[latest
+release^], copy the `JTI` folder to your Vale `StylesPath`, and include it in your `.vale.ini` configuration file:
 +
 [source, ini]
 ----
@@ -26,8 +24,7 @@ MinAlertLevel = warning # suggestion, warning or error
 BasedOnStyles = JTI
 ----
 
-2. Add the repo URL to your Vale `Packages` in your `.vale.ini`
-configuration file:
+2. Add the repo URL to your Vale `Packages` in your `.vale.ini` configuration file:
 +
 [source, ini]
 ----
