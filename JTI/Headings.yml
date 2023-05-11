@@ -8,30 +8,42 @@ indicators:
   - ':'
 exceptions:
   - Azure
+  - California
   - CLI
   - Client
   - Code
+  - Community
   - Cosmos
   - Cygwin
   - Docker
+  - Edition
   - Emmet
-    GitHub
+  - GitHub
   - Host
   - Integration
-  - Java
+  - IP-DLC
   - JCMS
+  - Java
   - Kubernetes
   - Linux
-  - Maven
+  - MS-HIS
   - MSSQL
+  - MySQL
   - Marketplace
+  - Maven
   - Microsoft
   - MongoDB
   - MySQL
+  - Notice
   - REPL
   - Server
+  - SNABase
+  - SNAServer
+  - SNASA
+  - SNASAs
   - Studio
   - Tomcat
+  - Traffic/Crim
   - TypeScript
   - URLs
   - VS
